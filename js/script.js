@@ -1,5 +1,8 @@
-import debounce from "./modules/debounce.js";
-import slide from "./modules/slide.js";
+import Debounce from "./modules/debounce.js";
+import Slide from "./modules/slide.js";
 
-slide();
-debounce();
+const slide = new Slide(".slide", ".wrapper");
+slide.init();
+
+const debounce = new Debounce();
+debounce.init();
