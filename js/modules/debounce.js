@@ -1,3 +1,3 @@
-export default function debounce() {
-  console.log("Olá debounce!");
+export default class Debounce {
+  constructor() {}
 }
